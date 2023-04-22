@@ -1,5 +1,4 @@
 import { Oval } from 'react-loader-spinner';
-import * as basicLightbox from 'basiclightbox';
 import React, { Component } from 'react';
 
 import SearchBar from 'components/SearchBar/SearchBar';
