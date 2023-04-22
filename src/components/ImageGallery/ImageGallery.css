@@ -1,0 +1,9 @@
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+  justify-content: space-evenly;
+  list-style: none;
+
+  padding: 0;
+}

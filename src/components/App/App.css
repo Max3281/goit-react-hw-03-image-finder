@@ -1,0 +1,19 @@
+.container {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.03em;
+  width: 1400px;
+  margin: 0 auto;
+  padding: 0 15px;
+  text-align: center;
+}
+
+.loader {
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  margin: 0 auto;
+}

@@ -1,0 +1,42 @@
+.photo-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+
+  width: calc((100% - (15px * 3)) / 4);
+
+  border-radius: 10px;
+  box-shadow: 0 10px 10px -5px rgba(0, 0, 0, 0.3);
+}
+
+.photo-card:hover {
+  transition-duration: 500ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transform: scale(1.05);
+  box-shadow: 0 10px 10px 5px rgba(0, 0, 0, 0.3);
+}
+
+.photo-card-img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 1200;
+}
+
+.modal {
+  max-width: calc(100vw - 48px);
+  max-height: calc(100vh - 24px);
+}

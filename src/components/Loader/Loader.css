@@ -1,0 +1,14 @@
+.load-more {
+  padding: 7px 15px;
+  border: 1px solid;
+  border-radius: 3px;
+  cursor: pointer;
+  margin: 25px 0px;
+}
+
+.load-more:hover {
+  color: white;
+  background-color: orange;
+  transition: color 250ms, background-color 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
