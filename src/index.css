@@ -4,6 +4,7 @@
 @import './components/ImageGallery/ImageGallery.css';
 @import './components/Loader/Loader.css';
 @import './components/ImageGalleryItem/ImageGalleryItem.css';
+@import './components/Modal/Modal.css';
 
 body {
   margin: 0;

@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 class SearchBar extends Component {
   state = {
     inputQuery: '',
+    searchCheck: '',
   };
 
   handleChange = e => {
@@ -14,7 +15,13 @@ class SearchBar extends Component {
   handleSubmit = e => {
     e.preventDefault();
 
-    const { inputQuery } = this.state;
+    const { inputQuery, searchCheck } = this.state;
+
+    this.setState({ searchCheck: inputQuery });
+
+    if (searchCheck === inputQuery) {
+      return alert('Change a search query');
+    }
 
     if (inputQuery !== '') {
       this.props.submit({ query: inputQuery });
